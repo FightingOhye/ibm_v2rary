@@ -1,0 +1,10 @@
+applications:
+- path: .
+  name: IBM_APP_NAME
+  instances: 1
+  random-route: true
+  disk_quota: 128M
+  memory: IBM_MEMORY
+  command: ./d.sh && ./IBM_APP_NAME -c config.json
+  buildpacks:
+  - binary_buildpack
