@@ -14,22 +14,22 @@
         ]
       },
       "streamSettings": {
-		  "network": "tcp",
-		  "tcpSettings": {
-			"header": {
-			  "type": "http",
-			  "request": {
-				"version": "1.1",
-				"method": "GET",
-				"path": "/",
-			  },
-			  "response": {
-				"version": "1.1",
-				"status": "200",
-				"reason": "OK",
-			  }
-			}
+	  "network": "tcp",
+	  "tcpSettings": {
+		"header": {
+		  "type": "http",
+		  "request": {
+			"version": "1.1",
+			"method": "GET",
+			"path": "/",
+		  },
+		  "response": {
+			"version": "1.1",
+			"status": "200",
+			"reason": "OK",
+		  }
 		}
+	}
       }
     }
   ],
