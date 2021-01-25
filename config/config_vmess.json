@@ -1,11 +1,7 @@
 {
   "inbounds": [
     {
-      "sniffing": {
-        "enabled": true,
-        "destOverride": ["http", "tls"]
-      },
-      "port": 8080,
+      "port": 80,
       "listen":"0.0.0.0",
       "protocol": "vmess",
       "settings": {
@@ -18,9 +14,9 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/V2_PATH"
+        "network": "tcp",
+        "tcpSettings": {
+          "path": "/"
         }
       }
     }
