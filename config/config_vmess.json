@@ -5,7 +5,7 @@
         "enabled": true,
         "destOverride": ["http", "tls"]
       },
-      "port": 80,
+      "port": 8080,
       "listen":"0.0.0.0",
       "protocol": "vmess",
       "settings": {
