@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
   push:
     branches: [ master ]
-  schedule:
-    - cron: '0 7 * * 3'
+  #schedule:
+  #  - cron: '0 7 * * 3'
 
 defaults:
   run:
